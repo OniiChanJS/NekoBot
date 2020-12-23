@@ -263,4 +263,4 @@ class NekoBot(commands.AutoShardedBot):
         return
 
 if __name__ == "__main__":
-    NekoBot(0, 1, 1, [0], None).run(config.testtoken)
+    NekoBot(0, 1, 1, [0], None).run(os.environ['TOKEN'])
